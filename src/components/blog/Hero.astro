@@ -7,12 +7,12 @@ import Heading from "../ui/Heading.astro";
 
 const { 
   profileImage = "/images/efeeleprofile.webp",
-  profileAlt = "Photo of Fernando Aldair López Ponce (EFEELE) for the blog",
+  profileAlt = "Foto de Luis Yampier Cueva Suárez para el blog",
   profileLink = "/about-me",
-  profileTitle = "FrontEnd Developer",
-  profileName = "Fernando Aldair López Ponce",
-  githubLink = "https://github.com/EFEELE/NeonMint",
-  githubText = "Do you like this blog's design?",
+  profileTitle = "Ingeniero de Software",
+  profileName = "Luis Yampier Cueva Suárez",
+  githubLink = "https://github.com/LuisCueva12",
+  githubText = "¿Te gusta el diseño de este blog?",
   techsTitle = "TECHS"
 } = Astro.props;
 ---
@@ -87,12 +87,12 @@ const {
             > 🚀</span
           >
           <Heading
-          text={profileName}
-          level={3}
-        />
+            text={profileName}
+            level={3}
+          />
           <Button
             link={profileLink}
-            text="About Me"
+            text="Sobre mí"
             iconName="person"
             class="drop-shadow-xl"
           />

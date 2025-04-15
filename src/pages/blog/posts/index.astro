@@ -3,17 +3,17 @@ import Layout from "../../../layouts/Layout.astro";
 import Hero from "../../../components/blog/Hero.astro";
 import Tags from "../../../components/blog/Tags.astro";
 import ListPosts from "../../../components/blog/ListPosts.astro";
-const pageTitle = "Web Development and Technology Blog | Fernando López | EFEELE";
-const description = "Welcome to my blog, where I share my passion for frontend development, web design, and the latest technology trends.";
+
+const pageTitle = "Luis Yampier Cueva Suárez - Ingeniero de Software | Portfolio";
+const description = "Ingeniero de Software con experiencia en desarrollo web, soluciones tecnológicas y aplicaciones con inteligencia artificial.";
 const ogimage = {
   url: "/images/blogimage.webp",
-  alt: "EFEELE.dev logo with green background and light effect. Text: 'Web Development and Technology Blog' and URL 'www.efeele.dev'.",
+  alt: "Luis Yampier Cueva Suárez - Ingeniero de Software",
 };
-const currentUrl = `https://efeele.dev${Astro.url.pathname}`;
+const currentUrl = `https://tusitio.com${Astro.url.pathname}`;
 const tweetText = encodeURIComponent(`"${pageTitle}"`);
 import Heading from "../../../components/ui/Heading.astro";
 import Share from "../../../components/ui/Share.astro";
-
 import Languages from "../../../components/blog/Languages.astro";
 ---
 
@@ -49,6 +49,5 @@ import Languages from "../../../components/blog/Languages.astro";
         </div>
       </div>
     </div>
-</div>
-
+  </div>
 </Layout>
