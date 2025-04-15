@@ -7,21 +7,21 @@ import Hobbies from "../portfolio/Hobbies.astro";
 
 const  {
   profileImage = "/images/efeeleprofile.webp",
-  profileAlt = "Photo of Fernando Aldair López Ponce (EFEELE) for the blog",
+  profileAlt = "Foto de Luis Yampier Cueva Suárez para el portafolio",
   profileLink = "/about-me",
-  profileTitle = "FrontEnd Developer",
-  profileName = "Fernando López",
-  githubLink = "https://github.com/EFEELE/NeonMint",
-  githubText = "Do you like this blog's design?",
+  profileTitle = "Desarrollador Web",
+  profileName = "Luis Yampier Cueva Suarez",
+  githubLink = "https://github.com/LuisCueva12",
+  githubText = "¿Te gusta el diseño de este sitio?",
   portfolioImage = "/images/portfolio.webp",
   email = "hello@efeele.dev",
-} = Astro.props;;
+} = Astro.props;
 ---
 
 <section
   class="scroll-m-16 px-8 max-sm:px-4 py-8"
   id="home"
-  aria-label="Professional profile and introduction"
+  aria-label="Perfil profesional e introducción"
 >
   <div
     class="mx-auto mb-4 h-96 w-full max-w-7xl rounded-2xl bg-gradient-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 p-[.2rem]  max-md:h-auto"
@@ -41,12 +41,12 @@ const  {
             <div
               class="w-full aspect-square rounded-full bg-center bg-cover"
               style={`background-image: url(${profileImage})`}
-              aria-label="Photo of Fernando Aldair López Ponce (EFEELE) for the blog"
+              aria-label="Foto de Luis Yampier Cueva Suárez para el portafolio"
             >
               <a
                 href={profileLink}
                 class="flex h-full w-full"
-                aria-label="View about me page"></a>
+                aria-label="Ver página sobre mí"></a>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ const  {
           <span
             class="before:mr-2 before:block before:h-1.5 before:w-1.5 before:rounded-full before:bg-green-400 before:shadow-[0px_0px_0px_3px_rgba(34,_197,_94,_0.5)] before:animate-pulse before:content-['']"
           ></span>
-          Available for work
+          Disponible para trabajar
         </span>
 
         <h1
@@ -75,21 +75,21 @@ const  {
           <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent   dark:from-riptide-300 dark:to-mint-200"
             >{profileTitle}</span
-          > with <span
+          > con <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent  dark:from-riptide-300 dark:to-mint-200"
-            >8 years of experience</span
-          >, passionate about development, technology, and coffee that sparks ideas. I love bringing digital projects to life. 🚀☕
+            >1 año de experiencia</span
+          >, apasionado por el desarrollo, la tecnología y el café que enciende ideas. Me encanta dar vida a proyectos digitales. 🚀☕
         </p>
 
         <div class="flex gap-4 max-sm:flex-col max-sm:items-center">
           <Button
             link={"mailto:" + email}
-            text="Contact Me"
+            text="Contáctame"
             iconName="envelope"
           />
           <Button
             link={profileLink}
-            text="About Me"
+            text="Sobre mí"
             iconName="person"
             variant="dark"
           />
@@ -104,7 +104,7 @@ const  {
       class="col-start-2 row-start-2 flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-gradient-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start-4"
     >
       <div class="flex flex-col-reverse items-start gap-4 max-md:gap-2">
-        <Heading text="Beyond the Code" level={3} />
+        <Heading text="Más allá del código" level={3} />
       </div>
 
       <div class="overflow-y-auto">
@@ -122,13 +122,13 @@ const  {
           <a
             target="_blank"
             href={githubLink}
-            aria-label="View this site's code repository on GitHub"
+            aria-label="Ver repositorio del sitio en GitHub"
           >
             <div
               class="relative flex h-full flex-col gap-8 p-8 dark:before:[background-image:radial-gradient(circle,_rgba(13,188,130)_0,_rgba(1,45,34)_100%)] before:[background-image:radial-gradient(circle,_rgba(95,255,202)_0,_rgba(144,253,210)_100%)] before:absolute before:left-30 before:bottom-30 before:h-[30%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-90 before:transition before:z-0 max-xl:p-5 max-md:p-4 xl:before:bottom-10"
             >
               <div class="z-2">
-                <Heading text="Do you like this site's design?" level={3}/>
+                <Heading text="¿Te gusta el diseño de este sitio?" level={3}/>
               </div>
 
               <Icon
@@ -154,7 +154,7 @@ const  {
             name="dashboard"
             aria-hidden="true"
           />
-          <Heading text="Tech" textGradient="Stack" level={3} />
+          <Heading text="Tecnologías" textGradient="Usadas" level={3} />
         </div>
         <div class="overflow-y-auto">
           <Tools />
@@ -171,35 +171,35 @@ const  {
         <a
           href="#projects"
           class="absolute left-0 top-0 z-50 h-full w-full bg-transparent"
-          aria-label="View projects section"></a>
+          aria-label="Ver sección de proyectos"></a>
         <div class="flex items-center gap-4 max-md:gap-2">
           <Icon
             class="text-3xl dark:text-white text-mint-500 max-md:text-2xl max-sm:text-xl"
             name="code"
             aria-hidden="true"
           />
-          <Heading text="Projects" level={3}/>
+          <Heading text="Proyectos" level={3}/>
         </div>
         <p
           class="z-2 my-6 text-lg font-semibold leading-6 dark:text-gray-200 text-blacktext max-xl:text-base max-w-[90%] max-md:max-w-[85%]"
         >
-          I love <span
+          Me encanta <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent  dark:from-riptide-300 dark:to-mint-200"
-            >turning ideas into real projects.</span
+            >convertir ideas en proyectos reales.</span
           >
-          <br /> Here I show you some of the <span
+          <br /> Aquí te muestro algunos de los <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent  dark:from-riptide-300 dark:to-mint-200"
-            >developments</span
-          > I've worked on, applying technology, design, and lots of creativity.
+            >desarrollos</span
+          > en los que he trabajado, aplicando tecnología, diseño y mucha creatividad.
           <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500  font-black  bg-clip-text text-transparent  dark:from-riptide-300 dark:to-mint-200"
-            >Check them out!</span
+            >¡Échales un vistazo!</span
           >
         </p>
         <img
           class="relative left-0 z-0 mt-40 w-full object-cover transition-all ease-in-out duration-500 group-hover:rotate-2 group-hover:scale-185 max-xl:mt-28 max-lg:mt-10 max-sm:mt-0 max-md:scale-100 max-sm:scale-125 scale-180 max-md:group-hover:scale-105 before:[background-image:radial-gradient(circle,_rgba(13,188,130)_0,_rgba(1,45,34)_100%)] before:absolute before:left-30 before:-bottom-0 before:h-[80%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-80 before:-z-10 before:transition"
           src={portfolioImage}
-          alt="View of two website interfaces with modern and dark design. The first screen shows the title 'Behind the Code' with a rocket and dark background, explaining the origin of a community software project. The second screen presents a platform for finding speakers, with an attractive design, expert photos, and a prominent search button."
+          alt="Vista de dos interfaces web con diseño moderno y oscuro. La primera pantalla muestra el título 'Detrás del Código' con un cohete, explicando el origen de un proyecto comunitario. La segunda pantalla presenta una plataforma para encontrar expositores, con diseño atractivo, fotos de expertos y un botón de búsqueda destacado."
           loading="lazy"
           width="480"
           height="320"

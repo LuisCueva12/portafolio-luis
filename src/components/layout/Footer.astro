@@ -11,17 +11,17 @@ const linkedin = "https://www.linkedin.com/in/luis-yampier-cueva-suarez/";
 <footer
   class="relative bottom-0 w-full px-4 py-8 font-medium text-blacktext dark:bg-transparent dark:border-b-2 dark:border-zinc-800 dark:text-zinc-300 max-lg:mt-3"
   role="contentinfo"
-  aria-label="Site footer"
+  aria-label="Pie de página del sitio"
 >
   <nav
     class="mx-auto flex max-w-7xl flex-row items-center justify-between gap-4 text-xl max-xl:px-6 max-sm:flex-col"
-    aria-label="Footer navigation"
+    aria-label="Navegación del pie de página"
   >
     <div
       class="relative h-6 cursor-pointer before:absolute before:left-1/2 before:top-1/2 before:h-full before:w-[40%] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:bg-[#50fd8f25] before:blur-3xl before:opacity-80 before:-z-1 hover:text-mint-500 transition-all [text-shadow:_0_1px_2px_#000]"
     >
-      <a href="/" aria-label="Return to homepage">
-        <!-- This icon represents the logo -->
+      <a href="/" aria-label="Volver al inicio">
+        <!-- Este icono representa el logo -->
         <Icon name="logo" aria-hidden="true" />
       </a>
     </div>
@@ -29,14 +29,14 @@ const linkedin = "https://www.linkedin.com/in/luis-yampier-cueva-suarez/";
       <a
         href="https://github.com/LuisCueva12"
         class="flex items-center justify-center gap-3 text-base font-normal italic max-sm:text-sm"
-        aria-label="About the website development"
-        ><Icon name="code" aria-hidden="true" /> Developed by <strong>EFEELE</strong>, with Astro</a
+        aria-label="Sobre el desarrollo del sitio web"
+        ><Icon name="code" aria-hidden="true" /> Desarrollado por <strong>LuisCueva12</strong>, con Astro</a
       >
     </div>
-    <div class="flex items-center justify-center gap-5" role="list" aria-label="Social media links">
-      <Social link={email} iconName="envelope" label={`Send email to ${email}`} />
-      <Social link={github} iconName="github" label={`Visit ${name} on GitHub`} />
-      <Social link={linkedin} iconName="linkedin" label={`Visit ${name} on LinkedIn`} />
+    <div class="flex items-center justify-center gap-5" role="list" aria-label="Enlaces a redes sociales">
+      <Social link={email} iconName="envelope" label={`Enviar correo a ${email}`} />
+      <Social link={github} iconName="github" label={`Visitar a ${name} en GitHub`} />
+      <Social link={linkedin} iconName="linkedin" label={`Visitar a ${name} en LinkedIn`} />
     </div>
   </nav>
 </footer>

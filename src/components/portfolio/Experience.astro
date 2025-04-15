@@ -1,32 +1,46 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro";
+
 const EXPERIENCE = [
   {
-    date: "2021 - Present",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
+    date: "Abril 2024 - Abril 2025",
+    title: "Ingeniero de Software Junior",
+    company: "Adventur.pe",
     description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+      "Desarrollo de soluciones tecnológicas enfocadas en el sector turismo. Optimización de contenido digital para mejorar la visibilidad de productos turísticos en línea, implementación de funcionalidades para comercio electrónico y mejoras SEO.",
   },
   {
-    date: "2019 - 2020",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
+    date: "Agosto 2024 - Diciembre 2024",
+    title: "Desarrollador Web",
+    company: "CONIT",
     description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+      "Desarrollo de aulas virtuales personalizadas para organizaciones educativas. Implementación de funcionalidades a medida usando WordPress, WooCommerce y Elementor. Enfoque en la mejora de procesos de enseñanza-aprendizaje a través de plataformas digitales.",
   },
-  
+  {
+    date: "Agosto 2024 - Diciembre 2024",
+    title: "Practicante de Soporte Técnico",
+    company: "Grupo GAAN",
+    description:
+      "Gestión de inventarios físicos mediante Tarjetas Kardex. Soporte en la instalación, configuración y mantenimiento de equipos informáticos para asegurar la continuidad operativa de la empresa.",
+  },
+  {
+    date: "Febrero 2025 - Mayo 2025",
+    title: "Desarrollador de Software",
+    company: "GootWork",
+    description:
+      "Participación en el desarrollo de soluciones web aplicadas a proyectos de innovación tecnológica con impacto social. Colaboración en el modelo de negocio 'Minkay' y mejora de plataformas administrativas internas.",
+  },
 ];
 ---
 
-<div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+<div class="relative max-md:mt-0 mt-8" aria-label="Experiencia profesional">
   <ol class="relative mt-10">
     {
       EXPERIENCE.map((experience, index) => (
         <li class="">
           <article role="article" aria-labelledby={`experience-title-${index}`}>
             <div
-              class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
+              class="flex flex-col gap-2 text-zinc-00 dark:text-zinc-300 md:col-span-3"
               aria-describedby={`experience-title-${index}`}
             >
               <ExperienceItem {...experience} />
