@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/MarkdownPostLayout.astro
-title: "NeonMint: Transformando el Marketing Digital para Empresas Emergentes"
+title: "Transformando el Marketing Digital para Empresas Emergentes"
 author: Luis Yampier Cueva Suárez
 description: "Descubre cómo NeonMint está revolucionando las estrategias de marketing digital para pequeñas empresas con herramientas accesibles e inteligencia artificial."
 image:

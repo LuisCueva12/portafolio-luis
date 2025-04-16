@@ -26,14 +26,21 @@ const navItems = isActiveRoute
   <div
     class="relative mx-auto flex max-w-7xl flex-row items-center justify-between max-xl:px-6"
   >
-    <a href="/" aria-label="Go to home">
-      <Icon
-        name="logo"
-        class="h-6 cursor-pointer transition-all hover:text-mint-300"
-        aria-hidden="true"
-      />
+    <a
+      href="/"
+      aria-label="Ir al inicio"
+      class="text-lg font-bold tracking-wide text-black dark:text-white hover:text-mint-300 transition-all cursor-pointer"
+    >
+      LuisY
     </a>
 
+    <!-- <a href="/" aria-label="Go to home">
+    <Icon
+      name="logo"
+      class="h-6 cursor-pointer transition-all hover:text-mint-300"
+      aria-hidden="true"
+    />
+  </a> -->
     <Navigation items={navItems} />
 
     <div class="flex items-center justify-between gap-5 text-xl">

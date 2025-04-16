@@ -1,42 +1,41 @@
 ---
 layout: /src/layouts/ProjectLayout.astro
-title: 'Virtual Classroom System'
+title: 'Adventur.pe - Plataforma de Turismo en Línea'
 pubDate: 2025-03-15
-description: 'A customized virtual learning platform developed for educational organizations.'
-languages: ["php", "laravel", "javascript", "mysql", "tailwind"]
+description: 'Desarrollo web personalizado para Adventur.pe, una plataforma enfocada en turismo y experiencias locales en Perú.'
+languages: ["wordpress", "php", "css", "html"]
 image:
-  url: "/images/projects/classroom-system.webp"
-  alt: "Screenshot of the Virtual Classroom System interface"
---- 
+  url: "/images/projects/adventur-pe.webp"
+  alt: "Captura de pantalla del sitio web de Adventur.pe"
+---
 
-**Virtual Classroom System** is a comprehensive e-learning platform developed to meet the specific needs of educational institutions. This project provides a complete solution for online education, featuring course management, live interactions, and progress tracking.
+**Adventur.pe** es una plataforma de turismo digital que conecta a los viajeros con experiencias únicas en Perú. Como **Ingeniero de Software Junior**, participé en el desarrollo y optimización del sitio web, mejorando tanto la experiencia de usuario como la visibilidad en línea.
 
-Built with **Laravel** and **MySQL**, the system offers a robust backend with an intuitive frontend interface styled with **TailwindCSS**.
+Este proyecto fue implementado utilizando **WordPress**, **WooCommerce**, y **Elementor**, con un enfoque especial en SEO y rendimiento web para aumentar el tráfico orgánico.
 
-## 🧩 Features
+## 🧩 Características principales
 
-- Customizable virtual classrooms
-- Real-time student-teacher interactions
-- Course content management system
-- Progress tracking and analytics
-- Assignment submission and grading
-- Responsive design for all devices
-- Secure authentication system
+- Diseño visual atractivo y responsive
+- Optimización SEO para motores de búsqueda
+- Integración de WooCommerce para reservas en línea
+- Personalización con Elementor
+- Sistema de carga optimizada de imágenes y recursos
+- Backend administrable para gestión de destinos turísticos
 
-## 💡 Technologies used
+## 💡 Tecnologías utilizadas
 
-- PHP (Laravel Framework)
-- JavaScript (Vue.js)
-- MySQL Database
-- TailwindCSS
-- WebRTC for live sessions
+- WordPress + WooCommerce
+- Elementor (Diseño visual)
+- PHP (custom hooks/templates)
+- SEO on-page con Yoast SEO
+- HTML, CSS, JavaScript
 
-## 🌐 Project Details
+## 🌐 Proyecto en línea
 
-👉 [View project case study](#) 
+👉 [Visita Adventur.pe](https://adventur.pe/)
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-The goal of this project was to create a tailored e-learning solution that addresses the unique challenges of modern education. The platform combines functionality with user-friendly design to enhance the digital learning experience.
+Crear una experiencia digital intuitiva que permita a los usuarios explorar y reservar actividades turísticas en Perú de manera rápida y segura. El enfoque estuvo en mejorar el rendimiento y la presencia digital para conectar mejor con su audiencia objetivo.
 
-🚀 *Developed by Luis Yampier Cueva Suárez.*
+🚀 *Desarrollado por Luis Yampier Cueva Suárez.*
