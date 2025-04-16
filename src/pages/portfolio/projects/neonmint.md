@@ -1,43 +1,42 @@
 ---
-layout:  /src/layouts/ProjectLayout.astro
-title: 'NeonMint'
-pubDate: 2025-04-05
-description: 'NeonMint is a modern, minimalist template crafted for developers and digital creatives.'
-languages: ["astro", "tailwind", "cloudflare", "javascript","vercel"]
+layout: /src/layouts/ProjectLayout.astro
+title: 'Virtual Classroom System'
+pubDate: 2025-03-15
+description: 'A customized virtual learning platform developed for educational organizations.'
+languages: ["php", "laravel", "javascript", "mysql", "tailwind"]
 image:
-  url: "/images/projects/neonmint.webp"
-  alt: "Thumbnail of Astro arches."
+  url: "/images/projects/classroom-system.webp"
+  alt: "Screenshot of the Virtual Classroom System interface"
 --- 
 
-**NeonMint** is a modern, minimalist web template created for developers, designers, and digital creatives. This project aims to offer an elegant and functional visual experience, combining a dark-toned aesthetic with mint green accents to highlight content without distractions.
+**Virtual Classroom System** is a comprehensive e-learning platform developed to meet the specific needs of educational institutions. This project provides a complete solution for online education, featuring course management, live interactions, and progress tracking.
 
-Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on speed, modularity, and a component-centered architecture.
+Built with **Laravel** and **MySQL**, the system offers a robust backend with an intuitive frontend interface styled with **TailwindCSS**.
 
 ## 🧩 Features
 
-- Responsive and minimalist design
-- Dark mode aesthetic with mint green accents
-- Clean and reusable UI components
-- Ideal for portfolios, dashboards or tech landing pages
-- Modern typography and clear visual hierarchy
-- Developed with **Astro**
-- Styled with **TailwindCSS**
+- Customizable virtual classrooms
+- Real-time student-teacher interactions
+- Course content management system
+- Progress tracking and analytics
+- Assignment submission and grading
+- Responsive design for all devices
+- Secure authentication system
 
 ## 💡 Technologies used
 
-- Astro
+- PHP (Laravel Framework)
+- JavaScript (Vue.js)
+- MySQL Database
 - TailwindCSS
-- HTML5
-- JavaScript
+- WebRTC for live sessions
 
+## 🌐 Project Details
 
-## 🌐 Demo
-
-👉 [View live demo](https://github.com/EFEELE/NeonMint) 
+👉 [View project case study](#) 
 
 ## 🎯 Objective
 
-The purpose of NeonMint is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
+The goal of this project was to create a tailored e-learning solution that addresses the unique challenges of modern education. The platform combines functionality with user-friendly design to enhance the digital learning experience.
 
-
-🚀 *Developed by EFEELE.*
+🚀 *Developed by Luis Yampier Cueva Suárez.*
