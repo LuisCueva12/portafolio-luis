@@ -5,8 +5,10 @@ import HeroIndex from "../components/portfolio/HeroIndex.astro";
 import Contact from "../components/portfolio/Contact.astro";
 import ListProjects from "../components/portfolio/ListProjects.astro";
 import { Icon } from "astro-icon/components";
-const pageTitle = "Luis Yampier Cueva Suárez | Ingeniero de Software | Portafolio";
-const description = "Soy Luis Yampier Cueva Suárez, Ingeniero de Software con experiencia en desarrollo web. Aquí podrás explorar mis proyectos y descubrir cómo puedo transformar tus ideas en soluciones web de calidad.";
+const pageTitle =
+  "Luis Yampier Cueva | Especialista en Plataformas E-Learning & Desarrollo Web";
+const description =
+  "Técnico Ingeniero de Software especializado en plataformas educativas y e-commerce. Creo soluciones digitales innovadoras con Astro, WordPress, Moodle y tecnologías modernas. ¡Transformemos tu idea en realidad digital!";
 const ogimage = {
   url: "/images/imagedefault.webp",
   alt: "Captura de pantalla de un portafolio web moderno y oscuro. Presentando a Luis Yampier Cueva Suárez, Ingeniero de Software con experiencia, destacando su pasión por el desarrollo y la tecnología. Incluye secciones de contacto, proyectos y un stack tecnológico con tecnologías como Python, PHP, JavaScript, TypeScript, Laravel, Vue.js, y más.",
@@ -17,14 +19,18 @@ import Heading from "../components/ui/Heading.astro";
 <Layout pageTitle={pageTitle} description={description} ogimage={ogimage}>
   <HeroIndex />
 
-  <section
-    class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16"
-    id="experience"
-  >
+  <section class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16" id="experience">
     <div class="flex flex-col pt-8 max-w-4xl mx-auto">
       <div class="flex gap-4 items-center justify-center">
-        <Icon class="text-3xl dark:text-white text-blacktext" name="briefcase" />
-        <Heading text="Experiencia Profesional" textGradient="Trabajo" level={2}/>
+        <Icon
+          class="text-3xl dark:text-white text-blacktext"
+          name="briefcase"
+        />
+        <Heading
+          text="Experiencia Profesional"
+          textGradient="Trabajo"
+          level={2}
+        />
       </div>
 
       <Experience />
@@ -39,22 +45,22 @@ import Heading from "../components/ui/Heading.astro";
       <ListProjects>
         <div class="flex gap-4 items-center justify-center text-center">
           <Icon class="text-3xl dark:text-white text-blacktext" name="code" />
-          <Heading text="Proyectos" textGradient="Completados" level={2}/>
+          <Heading text="Proyectos" textGradient="Completados" level={2} />
         </div>
         <p
           class="z-2 text-center mx-auto text-lg max-xl:text-base max-w-2xl dark:text-gray-200 text-blacktext my-6 leading-6 font-medium"
         >
-          Me encanta <b
+          Especializado en <b
             class="bg-gradient-to-r from-riptide-500 to-mint-500 dark:from-riptide-300 dark:to-mint-200 text-transparent bg-clip-text"
-            >convertir ideas en proyectos reales.</b
+            >plataformas educativas y e-commerce.</b
           >
-          <br /> Aquí te muestro algunos de los <b
+          <br /> Cada proyecto combina <b
             class="d bg-gradient-to-r from-riptide-500 to-mint-500 dark:from-riptide-300 dark:to-mint-200 text-transparent bg-clip-text"
-            >desarrollos</b
-          > en los que he trabajado, aplicando tecnología, diseño y mucha creatividad.
+            >tecnología moderna</b
+          > con diseño intuitivo para crear experiencias digitales que realmente impactan.
           <b
             class="bg-gradient-to-r from-riptide-500 to-mint-500 dark:from-riptide-300 dark:to-mint-200 text-transparent bg-clip-text"
-            >¡Echales un vistazo!</b
+            >¡Explora mis soluciones!</b
           >
         </p>
       </ListProjects>

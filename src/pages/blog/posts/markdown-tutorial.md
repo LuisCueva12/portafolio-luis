@@ -11,7 +11,7 @@ tags:
   [
     "documentación", "tutorial", "desarrollo-web", "creación-de-contenido", "escritura"
   ]
-languages: ["markdown", "html", "css"]
+languages: ["markdown"]
 ---
 
 Markdown es un lenguaje de marcado ligero que puedes usar para añadir elementos de formato a documentos de texto plano. Creado por John Gruber en 2004, Markdown es ahora uno de los lenguajes de marcado más populares del mundo.

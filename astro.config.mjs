@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap"
 import icon from "astro-icon";
 
 export default defineConfig({
-  site: "https://efeele.dev",
+  site: "https://yampier.netlify.app",
   integrations: [preact(), icon(), sitemap()],
 
   vite: {

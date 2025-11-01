@@ -1,11 +1,17 @@
 ---
-const allPosts = await Astro.glob("../../pages/blog/posts/*.md");
-const languages = [
-    ...new Set(allPosts.map((post) => post.frontmatter.languages).flat()),
-];
 import Capsule from "../ui/Capsule.astro";
 
-const { variant = "default" } = Astro.props;
+const { variant = "default", languages = [] } = Astro.props;
+
+// Si no se pasan languages como prop, obtenerlas de los posts
+let finalLanguages: string[] = [];
+
+if (languages.length > 0) {
+    finalLanguages = languages;
+} else {
+    const allPosts = await Astro.glob("../../pages/blog/posts/*.md");
+    finalLanguages = [...new Set(allPosts.map((post: any) => post.frontmatter.languages).flat())];
+}
 
 const baseClasses = "flex flex-wrap";
 
@@ -19,7 +25,7 @@ const classes = `${baseClasses} ${variantClasses[variant as keyof typeof variant
 
 <div class={classes}>
     {
-        languages.map((language) => (
+        finalLanguages.map((language: string) => (
             <Capsule lang={language} linkEnabled={true} size="md" />
         ))
     }

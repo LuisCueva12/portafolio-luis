@@ -50,10 +50,7 @@ export const languages: Record<string, Language> = {
     name: "Tailwind CSS",
     iconName: "tailwind",
   },
-  figma: {
-    name: "Figma",
-    iconName: "figma",
-  },
+
   firebase: {
     name: "Firebase",
     iconName: "firebase",
@@ -109,6 +106,18 @@ export const languages: Record<string, Language> = {
   python: {
     name: "Python",
     iconName: "python",
+  },
+  vue: {
+    name: "Vue.js",
+    iconName: "javascript", // Usando el icono de JavaScript ya que no hay icono específico de Vue
+  },
+  laravel: {
+    name: "Laravel",
+    iconName: "php", // Usando el icono de PHP ya que Laravel es un framework de PHP
+  },
+  nextjs: {
+    name: "Next.js",
+    iconName: "javascript", // Usando el icono de JavaScript
   },
 };
 
